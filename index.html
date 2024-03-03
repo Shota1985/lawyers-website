@@ -11,44 +11,67 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="icon" type="image/svg" href="/best-lawyer.png" />
+    <link rel="icon" type="image/svg" sizes="16x16" href="/best-lawyer.png" />
+    <link rel="icon" type="image/svg" sizes="32x32" href="/best-lawyer.png" />
   </head>
   <body>
     <header>
-      <div class="header__bar container">
+      <div class="header__bar">
         <div class="header__connect">
-          <div class="header__address">
-            <address class="header__tel">
-              <a href="#">+7 (922) 022-94-82</a>
-            </address>
-            <address class="header__mail">
-              <a href="mailto:janis62@yahoo.com">janis62@yahoo.com</a>
-            </address>
+          <div class="container connect__wrapper">
+            <div class="header__contacts">
+              <address class="header__tell">
+                <a class="header__address" href="#"
+                  ><img src="/src/images/logo/Vector(5).png" alt="tell" /> +7
+                  (922) 022-94-82</a
+                >
+              </address>
+              <address class="header__mail">
+                <a class="header__address" href="mailto:janis62@yahoo.com"
+                  ><img src="/src/images/logo/Vector(4).png" alt="maill" />
+                  janis62@yahoo.com</a
+                >
+              </address>
+            </div>
+            <button class="header__call">заказать звонок</button>
           </div>
-          <button class="header__call">заказать звонок</button>
         </div>
-        <div class="header__fixed">
-          <div class="header__title">
-            <h1>
-              <span class="header__title_blue">ПРАВОЗАЩИТНИК</span
-              ><br />ЮРИДИЧЕСКАЯ КОМПАНИЯ
-            </h1>
+        <div class="header__text">
+          <div class="title__wrapper container">
+            <div class="header__title">
+              <h2 class="title__text_blue">ПРАВОЗАЩИТНИК</h2>
+              <h1 class="title__text">юридическая компания</h1>
+            </div>
+            <nav class="header__nav">
+              <ul class="header__list">
+                <li class="list__services">
+                  <a class="list__item" href="services">Услуги</a>
+                </li>
+                <li class="list__about">
+                  <a class="list__item" href="about">О компании</a>
+                </li>
+                <li class="list__staff">
+                  <a class="list__item" href="staff">Наши юристы</a>
+                </li>
+                <li class="list__reviews">
+                  <a class="list__item" href="reviews">Отзывы</a>
+                </li>
+                <li class="list__news">
+                  <a class="list__item" href="news">Новости</a>
+                </li>
+                <li class="list__contacts">
+                  <a class="list__item" href="contacts">Контакты</a>
+                </li>
+              </ul>
+            </nav>
           </div>
-          <nav class="header__nav">
-            <ul class="header__list">
-              <li class="list__item"><a href="servises">Услуги</a></li>
-              <li class="list__item"><a href="about">О компании</a></li>
-              <li class="list__item"><a href="staff">Наши юристы</a></li>
-              <li class="list__item"><a href="reviews">Отзывы</a></li>
-              <li class="list__item"><a href="news">Новости</a></li>
-              <li class="list__item"><a href="contacts">Контакты</a></li>
-            </ul>
-          </nav>
         </div>
       </div>
     </header>
     <main>
       <section class="hero">
-        <div class="container">
+        <div class="container hero__wrapper">
           <div class="hero__text">
             <p class="hero__title">ОКАЗЫВАЕМ ВЕСЬ КОМПЛЕКС</p>
             <h2 class="hero__title_blue">ЮРИДИЧЕСИХ УСЛУГ</h2>
@@ -58,18 +81,20 @@
               обеспечивает более или менее стандартное заполнение.
             </p>
           </div>
-          <a class="hearo__services" href="#">наши услуги</a>
-          <div class="hero__slider">
-            <div class="hero__sticks">
-              <a class="slider__stick hero__stick_select" href="#">|</a
-              ><a class="slider__stick hero__stick_select" href="#">|</a
-              ><a class="slider__stick hero__stick_select" href="#">|</a>
-            </div>
-            <div class="hero__vectorslider">
-              <input class="change__arrow_left" tipe="button" value="<">
-              <span class="change__span">/</span>
-              <input class="change__arrow_right" tipe="button" value=">">
-            </div>
+          <div class="hero__button">
+            <a class="hero__services" href="#">НАШИ УСЛУГИ</a>
+          </div>
+        </div>
+        <div class="hero__slider container">
+          <div class="hero__sticks">
+            <a class="slider__stick hero__stick_select" href="#">|</a
+            ><a class="slider__stick hero__stick_select" href="#">|</a
+            ><a class="slider__stick hero__stick_select" href="#">|</a>
+          </div>
+          <div class="hero__vectorslider">
+            <input class="change__arrow" tipe="button" value="<" />
+            <span class="change__span">/</span>
+            <input class="change__arrow" tipe="button" value=">" />
           </div>
         </div>
       </section>
@@ -83,18 +108,20 @@
             обеспечивает более или менее стандартное заполнение шаблона
           </p>
         </div>
-        <div class="services__articles">
-          <article class="services__card">
-            <img
-              class="article__logo"
-              src="src/images/logo/Vector.png"
-              alt=""
-            />
-            <h3 class="article__title">Банкротство физических лиц</h3>
-            <p class="article__text">
+        <div class="services__cards">
+          <article class="services__item">
+            <img class="item__logo" src="src/images/logo/Vector.png" alt="" />
+            <h3 class="item__title">Банкротство физических лиц</h3>
+            <p class="item__discription">
               Процедуру банкротства физических лиц в России регулирует закон «О
               несостоятельности (банкротстве)».
             </p>
+            <div class="item__decor">
+              <!-- <span class="item__aim"><img src="/src/images/logo/aim/Hover border.png" alt=""></span> -->
+              <span class="item__aim"></span>
+              <span class="item__aim"></span>
+              <span class="item__aim"></span>
+            </div>
           </article>
           <article class="services__card">
             <img

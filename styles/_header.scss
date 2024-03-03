@@ -1,0 +1,66 @@
+header{position: fixed;width: 100%;}
+.header__connect {
+  background: #010101;
+  height: 52px;
+  align-items: center;
+  display: flex;
+}
+.connect__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.header__contacts {
+  align-items: center;
+  display: flex;
+}
+.header__address {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  color: #ffffff;
+}
+.header__mail {
+  padding-left: 20px;
+}
+.header__call {
+  padding: 5px 10px;
+  border: none;
+  background: transparent;
+  color: #4f8ff0;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+}
+// нижняя часть
+.header__text {
+  background: #010101c2;
+  height: 112px;
+  align-items: center;
+  display: flex;
+}
+.title__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title__text_blue{
+font-size: 28px;
+font-weight: 900;
+line-height: 42px;
+color:#4F8FF0;
+}
+.title__text{
+font-size: 20px;
+font-weight: 900;
+line-height: 30px;
+color: #ffffff;}
+.header__list{list-style: none;display: flex;}
+.list__item{
+padding:10px 15px ;
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+color: #ffffff;
+}
