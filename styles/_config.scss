@@ -7,11 +7,31 @@
   font-weight: 400;
   font-style: normal;
 }
+main {
+  background: #f7f7f7;
+}
 .container {
   margin: 0 auto;
   max-width: 1320px;
 }
-a{text-decoration: none;
+a {
+  text-decoration: none;
   color: black;
-  font-size: 20px;}
-button{cursor: pointer;}
+  font-size: 20px;
+}
+button {
+  cursor: pointer;
+}
+.blue__button {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 17px;
+  background-color: #4f8ff0;
+  padding: 14px 24px;
+  transition: .3s;
+}
+.blue__button:hover {
+  background: #e6e6e6;
+  color: #222222;
+}
