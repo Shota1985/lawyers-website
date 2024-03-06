@@ -1,0 +1,14 @@
+footer {
+  background-color: aquamarine;
+}
+.footer__text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 48px;
+}
+.description__text{width: 862px;}
+.footer__bar{display: flex;}
+.address__wrapper{display: flex;}
+.address__icon{width: 55px;height: 55px;}

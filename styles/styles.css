@@ -24,6 +24,10 @@ a {
   font-size: 20px;
 }
 
+li {
+  list-style: none;
+}
+
 .title, p {
   color: #222222;
 }
@@ -125,7 +129,6 @@ header {
 }
 
 .header__list {
-  list-style: none;
   display: flex;
 }
 
@@ -625,4 +628,33 @@ header {
 
 .all__news {
   margin-top: 82px;
+}
+
+footer {
+  background-color: aquamarine;
+}
+
+.footer__text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 48px;
+}
+
+.description__text {
+  width: 862px;
+}
+
+.footer__bar {
+  display: flex;
+}
+
+.address__wrapper {
+  display: flex;
+}
+
+.address__icon {
+  width: 55px;
+  height: 55px;
 }/*# sourceMappingURL=styles.css.map */
