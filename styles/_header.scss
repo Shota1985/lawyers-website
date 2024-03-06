@@ -31,11 +31,12 @@ header {
   padding: 5px 10px;
   border: none;
   background: transparent;
-  color: #4f8ff0;
+  color:#ffffff ;
   font-size: 14px;
   font-weight: 700;
   line-height: 21px;
 }
+.header__call:hover{color:#4f8ff0;}
 // нижняя часть
 .header__text {
   background: #010101c2;
@@ -65,10 +66,11 @@ header {
   list-style: none;
   display: flex;
 }
-.list__item {
+.list__item {transition: .3s;
   padding: 10px 15px;
   font-size: 18px;
   font-weight: 700;
   line-height: 22px;
   color: #ffffff;
 }
+.list__item:hover{color: #4f8ff0;}
