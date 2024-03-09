@@ -1,4 +1,8 @@
+.staff {
+  background: #f7f7f7;
+}
 .staff__wrapper {
+  padding-bottom: 80px;
   padding-top: 80px;
   display: flex;
   flex-direction: column;
@@ -64,3 +68,4 @@
   line-height: 19px;
   color: #222222;
 }
+
